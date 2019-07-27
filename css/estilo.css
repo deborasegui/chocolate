@@ -1,0 +1,101 @@
+body{
+	background-color: #f2eeed;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_lateral{
+	box-sizing:border-box;
+    margin:0;
+    padding:0;
+	margin-left: 129px;
+    }
+
+    li{
+    list-style-type:none;
+    position:relative;
+
+    }
+
+    li a{
+    text-decoration:none;
+    display:block;
+    padding:7px 10px;
+    width:120px;
+    color:#fff;
+    background-color:#E2A7B8;
+    }
+            
+    li a:hover{
+    color:#000;
+    background-color:#fff;
+    }
+            
+    li>ul{
+    display:none;
+    position:absolute;
+    top: 13px;
+    left: 120px;
+    }
+    
+    li:hover>ul{
+    display:block;
+    }
+	
+.barra{
+	display:inline-block;
+	width: 100%;
+	background-color: #E2A7B8;
+	height: 50px;
+}
+p{
+	display: inline;
+	margin-top: -10px;
+	margin-left:30px;
+}
+
+a{
+	float: right;
+	display: inline;
+	margin-right:30px;
+}
+
+ul{
+	width: 10%;
+}
+
+footer{
+    background-color: #E2A7B8;
+    float: left;
+    height: 100px;
+    width: 100%;
+	/*position: absolute;*/
+	bottom: 0;
+	
+}
+.Contact{
+    float:left;
+    width:50%;
+    margin-left:50px;
+	padding: 0 90px;
+    margin: 40px 0;
+	
+}
+.Contact a{
+	text-decoration:none;
+	text-align: center;
+}
+
+.ajuste{
+	width: 15%;
+    height: 78%;
+    background: #E2A7B8;
+	margin-top: -16px;
+}
+.centro{
+	position: absolute;
+    left: 262px;
+	top: 160px;
+}
+
+
